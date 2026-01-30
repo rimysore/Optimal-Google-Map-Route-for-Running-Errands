@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>ErrandOS | Multi-Stop Errand Optimizer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="importmap">
+  {
+    "imports": {
+      "react": "https://esm.sh/react@^19.2.4",
+      "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+      "@google/genai": "https://esm.sh/@google/genai@^1.38.0",
+      "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+      "react/": "https://esm.sh/react@^19.2.4/"
+    }
+  }
+  </script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #06080a;
+    }
+    /* Custom scrollbar for the automotive theme */
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #0a0c10;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #1e293b;
+      border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #4f46e5;
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="index.tsx"></script>
+</body>
+</html>
