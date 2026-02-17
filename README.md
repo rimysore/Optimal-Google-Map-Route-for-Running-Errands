@@ -2,7 +2,8 @@
 
 Errand OS is an AI-powered agentic orchestrator that goes beyond simple GPS. While standard maps calculate the fastest route between points A and B in a fixed order, **Errand OS** re-imagines your entire journey. It understands the *intent* of your errands and uses geospatial intelligence to optimize your path dynamically.
 
-![Errand OS UI](ph2.png) 
+<img width="1295" height="561" alt="image" src="https://github.com/user-attachments/assets/3bce0bf4-6204-4a72-93bf-f24630dc7779" />
+
 
 ## 🌐 Live Demo
 Check out the live application here: [Errand OS on Vercel](https://optimal-google-map-route-for-runnin.vercel.app/)
