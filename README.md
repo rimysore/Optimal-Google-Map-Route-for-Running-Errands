@@ -1,20 +1,29 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Errand OS: Autonomous Multi-Stop Optimizer 🚀
 
-# Run and deploy your AI Studio app
+Errand OS is an AI-powered agentic orchestrator that goes beyond simple GPS. While standard maps calculate the fastest route between points A and B in a fixed order, **Errand OS** re-imagines your entire journey. It understands the *intent* of your errands and uses geospatial intelligence to optimize your path dynamically.
 
-This contains everything you need to run your app locally.
+![Errand OS UI](ph2.png) 
 
-View your app in AI Studio: https://ai.studio/apps/drive/1dd9QQ8zGkPxtZZ0v_ntPciZ3zuoK29-2
+## 🌐 Live Demo
+Check out the live application here: [Errand OS on Vercel](https://optimal-google-map-route-for-runnin.vercel.app/)
 
-## Run Locally
+## ✨ Key Features
+- **Agentic Re-ordering:** Automatically re-sequences your stops based on proximity and live traffic rather than the order you typed them.
+- **Contextual Intelligence:** Identifies errands that share parking lots or are within walking distance (e.g., grouping a Starbucks run with a FedEx drop-off).
+- **Live "Vibe" Insights:** Provides data on parking availability and crowd density at each location.
+- **Smart Time Estimation:** Calculates a total "Time Investment" for the entire mission, including stop durations.
 
-**Prerequisites:**  Node.js
+## 🛠️ Tech Stack
+- **Framework:** React + Vite
+- **AI Orchestration:** Gemini 1.5 Flash API
+- **Geospatial Data:** Google Maps Platform (Places API, Distance Matrix API, Routes API)
+- **Styling:** Tailwind CSS (High-fidelity Dark Mode UI)
 
+## 🧠 Why Errand OS?
+Traditional navigation apps are reactive—they wait for you to tell them exactly where to go and in what order. Errand OS is **proactive**. By utilizing the **Model Context Protocol (MCP)** mindset, the agent parses your natural language input (e.g., "I need to get coffee and drop off a package"), identifies the best specific locations, and builds an optimized mission plan.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🚀 Getting Started
+
+1. **Clone the repo:**
+   ```bash
+   git clone [https://github.com/rimysore/Optimal-Google-Map-Route-for-Running-Errands.git](https://github.com/rimysore/Optimal-Google-Map-Route-for-Running-Errands.git)
